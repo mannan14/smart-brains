@@ -1,0 +1,17 @@
+.rank {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 60px;
+    font-size: x-large;
+    font: bold;
+    color: blanchedalmond;
+}
+
+.rank-number {
+    position: relative;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    bottom: 6px;
+}

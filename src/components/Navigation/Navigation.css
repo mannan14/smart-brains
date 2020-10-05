@@ -1,0 +1,46 @@
+nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    background: #000000;
+    opacity: 0.5;
+}
+
+p {
+    padding: 3;
+    margin-right: 24px;
+    font-size: 3;
+    font: bold;
+    cursor: pointer;
+}
+
+.nav-component {
+    list-style: none;
+    display: inline-flex;
+    inline-size: 5em;
+    margin: 0;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.signin {
+    cursor: pointer;
+    color: aliceblue;
+    margin-right: 5em;
+    margin-left: 5em;
+}
+
+.register {
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.signout{
+    cursor: pointer;
+    color: aliceblue;
+    padding: 5px;
+    margin: 5px ;
+    margin-right: 3em;
+}
+

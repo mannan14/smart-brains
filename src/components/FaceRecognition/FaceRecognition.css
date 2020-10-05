@@ -1,0 +1,16 @@
+.bounding-box {
+    position: absolute;
+    box-shadow: 0 0 0 5px black inset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+ .image{
+   position:relative ;
+   padding: 10px;
+   width: auto ;
+   height: 100px;
+ }
+

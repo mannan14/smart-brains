@@ -1,0 +1,43 @@
+.intro {
+font-size: 1rem;
+}
+
+.text {
+    width: 25em;
+    padding: 3px;
+    font-size: 1.25rem;
+    color: black;
+    background-color: rgb(204, 140, 204);
+}
+
+.button {
+    background: plum;
+    width: 30;
+    font-size: 1.25rem;
+    border-radius: 1rem; 
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+.grow {
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+  }
+  
+  .grow:hover,
+  .grow:focus {
+    transform: scale(1.05);
+  }
+
+  .outer-box {
+    padding: 1.5em;
+    border-radius: 3;
+    box-shadow: 4px 4px 8px 0.3px black;
+    background-color:#def;
+    background-image: radial-gradient(closest-side, transparent 98%, rgba(0,0,0,0.3) 99%),
+    radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%);
+    background-size:80px 80px;
+    background-position:0 0, 40px 40px;
+  }

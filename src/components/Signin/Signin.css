@@ -1,0 +1,39 @@
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;   
+}
+
+button {
+    border-radius: 50px;
+    padding: 8px 8px;
+}
+
+.measure {
+    padding: 2em;
+    display: grid;
+}
+
+.email {
+padding: 1em;
+margin: 5px;
+}
+
+.password{
+    padding: 0.5em;
+    margin: 5px;
+}
+
+.password-input{
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.email-input{
+padding: 5px;
+margin-left: 2px ;
+border-radius: 5px;
+}
+
